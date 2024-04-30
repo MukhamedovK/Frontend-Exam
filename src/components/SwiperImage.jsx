@@ -32,7 +32,7 @@ const SwiperImage = () => {
       }}
       navigation={true}
       modules={[Pagination, Navigation, Autoplay]}
-      className="bg-white w-[1300px] h-[500px] rounded-[30px]"
+      className="bg-white w-[80%] h-[500px] rounded-[30px]"
     >
       {filterCards.map((item, id) => (
         <SwiperSlide key={id}>
